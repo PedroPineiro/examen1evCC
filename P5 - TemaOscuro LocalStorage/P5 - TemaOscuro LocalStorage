@@ -1,0 +1,13 @@
+## Notas P4 - Reloj Merena
+
+## Descripción General
+
+- Debes implementar la funcionalidad de cambio de tema (de tema claro a tema oscuro y viceversa) en la P1 - Tareas.
+- NOTA: El texto del botón debe cambiar de "Cambiar a tema oscuro" o "Cambiar a tema claro" según el tema actual.
+- Cuando haya cambio de tema, debes de guardar esa preferencia del usuarie en localStorage y recuperarla cuando se refresque la página.
+- PISTA: document.documentElement -> root
+
+## Calificación
+
+- Funcionalidad cambio tema -> 20 puntos
+- Funcionalidad localStorage -> 20 puntos

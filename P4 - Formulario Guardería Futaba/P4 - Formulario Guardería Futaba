@@ -1,0 +1,21 @@
+## Notas P4 - Reloj Merena
+
+## Descripción General
+
+- Debes crear un formulario en HTML5 con validación (HTML o JS) para los nuevos alumnes de la guardería Futaba. Debes elegir el tipo de etiqueta HTML que mejor se adapte a la información requerida:
+  - Nombre Completo -> De 5 a 50 caracteres.
+  - Edad -> De 3 a 5 años.
+  - Dirección (campo texto libre) -> Máximo 50 caracteres.
+  - Teléfono de contacto -> 9 digitos -> expresión regular.
+  - Preferencia de clase (selección única) -> Rosas (prof. Ume Matsuzaka), Girasoles (prof. Midori Yoshinaga) y Cerezos (prof. Masumi Ageo).
+  - Alérgenos (seleccion multiple) -> Por ejemplo: Leche, huevos, frutos secos...
+  - Edad entre 3 y 5 años.
+- El formulario debe tener un botón de submit y de reset.
+- Se valora el correcto uso de los placeholder.
+- El formulario, una vez validado, se debe enviar al endpoint -> http://localhost:3000/api/registro
+
+## Calificación
+
+- Creación de los distintos campos del formulario -> 30 puntos
+- Validación de los distintos campos del formulario -> 30 puntos
+- Envío del formulario al backend -> 15 puntos

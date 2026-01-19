@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Fredoka";
+  src: url("../fonts/Fredoka.ttf") format("truetype");
+  font-weight: 300 700;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #ff6b6b;
+  --color-secondary: #ffd93d;
+  --text-primary: #2c3e50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  background: var(--color-secondary);
+  color: var(--text-primary);
+}
