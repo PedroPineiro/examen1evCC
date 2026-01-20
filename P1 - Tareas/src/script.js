@@ -59,3 +59,11 @@ function resetear(){
 botonTareas.addEventListener("click", function (event) {
   hacerTareas();
 });
+
+
+
+// ___________________________________________________________ Ej P5
+
+const root = document.documentElement();
+
+
