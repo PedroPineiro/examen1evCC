@@ -86,21 +86,10 @@ aplicarTema(temaGuardado);
 
 // Click del botón
 btnTema.addEventListener("click", () => {
-  let temaActual;
+    const temaActual =document.documentElement.getAttribute("theme") === "dark"? "dark" : "light";
 
-  if (root.getAttribute("theme") === "dark") {
-    temaActual = "dark";
-  } else {
-    temaActual = "light";
-  }
+    const nuevoTema = temaActual === "light" ? "dark" : "light";
 
-  let nuevoTema;
-
-  if (temaActual === "light") {
-    nuevoTema = "dark";
-  } else {
-    nuevoTema = "light";
-  }
 
   aplicarTema(nuevoTema);
   guardarTema(nuevoTema);
